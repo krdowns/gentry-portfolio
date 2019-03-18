@@ -1,0 +1,151 @@
+/* CSS RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* END RESET */
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #e0e0e0;
+    box-sizing: border-box;
+}
+
+.top-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+.left-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    width: 20%;
+    align-items: center;
+    color: #8d8d8d;
+}
+
+.right-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 12%;
+    margin-left: 50%;
+    align-items: center;
+}
+
+.right-nav a:hover {
+    color: #D75527;
+}
+
+.about {
+    width: 100%;
+    text-align: left;
+    font-size: 70px;
+    margin-top: 300px;
+    height: 500px;
+}
+
+.about-text {
+    width: 60%;
+    margin-left: 20%;
+    color: #585858;
+    margin-bottom: 20%;
+}
+
+.work {
+    background-color: #23263D;
+    height: 500px;
+}
+
+.work-text {
+    font-size: 100px;
+    color: white;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #585858;
+    font-size: 40px;
+    height: 500px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    height: 200px;
+    background-color: #D75527;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer p {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.footer-top {
+    font-weight: 500;
+}
+
