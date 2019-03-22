@@ -53,6 +53,8 @@ body {
     font-family: 'Raleway', sans-serif;
     background-color: #e0e0e0;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column; 
 }
 
 .top-nav {
@@ -99,12 +101,11 @@ body {
 }
 
 .about {
-    width: 100%;
+    width: 60%;
     text-align: left;
-    font-size: 70px;
-    padding-top: 300px;
-    padding-bottom: 100px;
-    min-height: 400px;
+    margin-left: 23.75%;
+    font-size: 80px;
+    margin-top: 190px;
     height: auto;
     background-size: contain;
 }
@@ -112,61 +113,45 @@ body {
 .about-text {
     width: 60%;
     margin-left: 20%;
-    color: #585858;
-    margin-bottom: 20%;
+    color: #D75527;
+    margin-bottom: 10%;
 }
 
-.work {
-    background-color: #23263D;
-    height: auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-size: contain; 
-    min-height: 400px;  
-}
-
-.work-text {
-    width: 60%;
-    margin-left: 20%;
-    font-size: 80px;
-    color: white;
-}
-
-.button-container {
+.container {
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: center;
+    margin-left: -10%;
+    margin-bottom: 30px;
 }
 
-.learn-more-button {
-    box-sizing: border-box;
-    color: white;
-    border: 4px solid white;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 100px;
-    padding-right: 100px;
-    margin-top: 20px;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.learn-more-button:hover {
-    border: 4px solid transparent;
-    background-color: #45485F;
-}
-
-.bottom {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 60%;
-    margin-left: 20%;
+.container p {
+    font-size: 17px;
+    line-height: 1.8em;
     color: #585858;
-    font-size: 40px;
-    height: auto;
-    min-height: 400px;  
+    margin-left: 100px;
+}
 
+.section-header {
+    width: 30%;
+    text-align: right;
+    color: #D75527;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid blue;
+}
+
+.contact-container {
+    width: 100%;
+    margin-left: 100px;
+    border: 2px solid blue;
+    text-align: left;
+}
+
+.contact-container p {
+    text-align: left;
+    padding-left: 0px;
 }
 
 footer {
@@ -178,8 +163,9 @@ footer {
     height: 200px;
     background-color: #D75527;
     text-align: center;
-    bottom: 0;
-    left: 0;
+    bottom: 0px;
+    left: 0px;
+    margin-top: 100px;
     font-family: 'Open Sans', sans-serif;
 }
 
