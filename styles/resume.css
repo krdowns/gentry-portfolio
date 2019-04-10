@@ -147,7 +147,6 @@ span {
     font-size: 25px;
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
-    /* border: 2px solid blue; */
 }
 
 footer {
@@ -168,6 +167,11 @@ footer {
 footer p {
     margin-bottom: 5px;
     margin-top: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .footer-top {
